@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRIAN-PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="about.html" class="logo">BRIAN MUNENE</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1 id="center">Hi, I'm Brian Munene</h1>
+            <h3>Front-end Developer</h3>
+            <p>I am currently a 3rd year student studying Bsc.Computer Science at Murang'a University of Technology.</p>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="profile-picture">
+            <img src="brian.jpg" alt="My Profile Picture">
+        </div>
+        <div class="bio">
+            <h2>Hi, I'm Brian Munene</h2>
+            <p>I am a passionate software developer based in Kenya.</p>
+            <p>With a keen interest in web development, I specialize in front-end and back-end technologies.</p>
+            <p>Throughout my academic and professional journey, I have gained valuable experience in full-stack development, including HTML, CSS, JavaScript, PHP, and MySQL.</p>
+            <p>I am dedicated to delivering high-quality code and creating user-friendly web applications.</p>
+        </div>
+    </section>
+    <section class="work" id="work">
+        <h2>My Work</h2>
+        <div class="work-item">
+            <img src="work-sample1.jpg" alt="Work Sample 1">
+            <h3>Project 1</h3>
+            <p>This is a website with several pages such as login,register and forgot pages and is connected to database where users' details are saved to database.</p>
+        </div>
+        <!-- Add more work samples as needed -->
+    </section>
+    <section class="achievements" id="achievements">
+        <h2>Achievements</h2>
+        <div class="bar">
+            <div class="bar-name">HTML</div>
+            <div class="bar-value" style="width: 85%;">85%</div>
+        </div>
+        <div class="bar">
+            <div class="bar-name">CSS</div>
+            <div class="bar-value" style="width: 75%;">75%</div>
+        </div>
+        <div class="bar">
+            <div class="bar-name">JavaScript</div>
+            <div class="bar-value" style="width: 60%;">60%</div>
+        </div>
+        <div class="bar">
+            <div class="bar-name">PHP</div>
+            <div class="bar-value" style="width: 70%;">70%</div>
+        </div>
+        <div class="bar">
+            <div class="bar-name">MySQL</div>
+            <div class="bar-value" style="width: 65%;">65%</div>
+        </div>
+        <div class="bar">
+            <div class="bar-name">Cisco</div>
+            <div class="bar-value" style="width: 50%;">50%</div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+            <form id="contact-form" method="post" action="submit_form.php">
+                <h2>Contact Us</h2>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+    </section>
+</body>
+<footer>
+    <p>&copy; 2024 Brian Munene</p>
+    <div class="home-sci">
+        <a href="https://web.facebook.com/home.php"><i class="bx bxl-facebook"></i></a>
+        <a href="https://twitter.com/home"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.instagram.com/"><i class="bx bxl-instagram"></i></a>
+        <a href="https://github.com/"><i class="bx bxl-github"></i></a>
+    </div>
+</footer>
+</html>

@@ -1,0 +1,269 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f2f2f2; /* Lighter background color */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #3498db; /* Header background color */
+    color: #ecf0f1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    padding: 10px 35px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover, .navbar a.active {
+    background-color: #2980b9; /* Navbar hover color */
+    border-radius: 4px;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 30px;
+    width: 100%;
+}
+
+.home {
+    background-color: #fff; /* Lighter background color */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.home-content {
+    max-width: 800px;
+}
+
+.home-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.home-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* About Section */
+.about {
+    background-color: #f9f9f9; /* About section background color */
+    text-align: center;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.bio {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.bio h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.bio p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Work Section */
+.work {
+    padding: 50px;
+    background-color: #fff; /* Lighter background color */
+    text-align: center;
+}
+
+.work-item {
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.work-item:hover {
+    transform: translateY(-5px);
+}
+
+.work-item img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f2f2f2; /* Light border color */
+}
+
+.work-item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.work-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Achievements Section */
+.achievements {
+    background-color: #f2f2f2; /* Achievements section background color */
+    text-align: center;
+}
+
+.achievements h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bar-name {
+    padding: 5px 10px;
+    width: 150px;
+    background-color: #3498db;
+    color: #ecf0f1;
+}
+
+.bar-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1abc9c;
+    color: #fff;
+    height: 100%;
+    transition: width 0.5s ease;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #fff; /* Contact section background color */
+    text-align: center;
+    padding: 40px 30px; /* Increase padding for smaller contact form */
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.contact-form {
+    max-width: 300px; /* Reduced max-width for smaller contact form */
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Reduced margin bottom for form groups */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 50%; /* Adjusted width for smaller inputs */
+    padding: 8px; /* Reduced padding for inputs */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px; /* Reduced font size for inputs */
+}
+
+button[type="submit"] {
+    display: block;
+    width: 50%; /* Adjusted width for submit button */
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #2c4150;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #3498db; /* Footer background color */
+    color: #ecf0f1;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    flex: 1;
+}
+.home-sci {
+    flex: 5; /* Make the div take remaining space */
+    text-align: center; /* Center the links */
+}
+
+.home-sci a {
+    font-size: 24px; /* Increased font size for footer links */
+    margin-left: 10px; /* Added margin between footer links */
+   
+}
+
